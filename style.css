@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background-color: #d78ffd;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    background-color: #6141B9;
+}
+
+img{
+    cursor: pointer;
+    height: 100px;
+    object-fit: contain;
+}
+
+header nav{
+    position: absolute;
+    right:70px;
+    top: 25px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-items: center;
+    align-items: center;
+}
+
+header nav ul li{
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: larger;
+    color: white;
+}
+
+main{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#carrossel{
+    display: flex;
+    justify-content: center;
+}
+
+#carrossel img{
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#eventos-projetos{
+    margin: 50px 250px 50px 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+#eventos-projetos img{
+    width: 40%;
+    height: 40%;
+}
+
+#eventos-projetos h1{
+    margin-left:15px;
+    margin-top: 0;
+}
+
+#eventos-projetos p{
+    margin-left:20px;
+    margin-top: 0;
+}
+
+#catalogo{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px ;
+}
+
+#catalogo img{
+    width: 50%;
+    height: 50%;
+}
+
+#sobrenos{
+    margin: 0 250px 50px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobrenos h1{
+    margin-top: 0;
+    margin-right: 15px;
+    text-align: right;
+}
+
+#sobrenos p{
+    margin-right: 20px;
+    text-align: right;
+}
+
+#sobrenos img{
+    width: 60%;
+    height: 60%;
+}
+
+#rodape{
+    display: flex;
+    background-color: #6141B9;
+}
+
+#rodape img{
+    margin-left: 300px;
+    width: 30%;
+    height: 30%;
+}
+
+#rodape ul{
+    list-style-type: none;
+    font-size: x-large;
+}
+
+#direitos{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
